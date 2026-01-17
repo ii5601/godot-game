@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://se3p0kwf6ria"
+path="res://.godot/imported/Nowhere_160 BPM_Full_Loop.wav-e985b9d38ad0f3710d1e2934fb5ff096.sample"
+
+[deps]
+
+source_file="res://BGM/Nowhere/Nowhere_160 BPM_Full_Loop.wav"
+dest_files=["res://.godot/imported/Nowhere_160 BPM_Full_Loop.wav-e985b9d38ad0f3710d1e2934fb5ff096.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

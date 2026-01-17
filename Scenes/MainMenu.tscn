@@ -1,0 +1,46 @@
+[gd_scene load_steps=3 format=3 uid="uid://o8ho005bvtdt"]
+
+[ext_resource type="Script" uid="uid://bbuv44claf1le" path="res://Script/main_menu.gd" id="1_tt5f1"]
+[ext_resource type="AudioStream" uid="uid://buolrvnqlcsxp" path="res://BGM/Falcon/Falcon_133_BPM_Full.wav" id="2_853f1"]
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_tt5f1")
+
+[node name="HBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -105.0
+offset_top = -46.5
+offset_right = 105.0
+offset_bottom = 46.5
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Label" type="Label" parent="HBoxContainer"]
+layout_mode = 2
+text = "Подземные преключение"
+
+[node name="StartGameButton" type="Button" parent="HBoxContainer"]
+layout_mode = 2
+text = "Играть
+"
+
+[node name="ExitButton" type="Button" parent="HBoxContainer"]
+layout_mode = 2
+text = "Выйти"
+
+[node name="BGM" type="AudioStreamPlayer" parent="HBoxContainer"]
+stream = ExtResource("2_853f1")
+
+[connection signal="pressed" from="HBoxContainer/StartGameButton" to="." method="_on_start_game_button_pressed"]
+[connection signal="pressed" from="HBoxContainer/ExitButton" to="." method="_on_exit_button_pressed"]

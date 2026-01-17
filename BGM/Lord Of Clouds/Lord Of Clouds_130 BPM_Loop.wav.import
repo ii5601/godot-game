@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bfwrgol5t56gh"
+path="res://.godot/imported/Lord Of Clouds_130 BPM_Loop.wav-5bc32073973cab18d67d3d78e50d27c8.sample"
+
+[deps]
+
+source_file="res://BGM/Lord Of Clouds/Lord Of Clouds_130 BPM_Loop.wav"
+dest_files=["res://.godot/imported/Lord Of Clouds_130 BPM_Loop.wav-5bc32073973cab18d67d3d78e50d27c8.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2
